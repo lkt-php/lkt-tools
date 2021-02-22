@@ -56,4 +56,28 @@ class ArrayTools
         }
         return $r;
     }
+
+    /**
+     * @param array $arr
+     * @return mixed
+     */
+    public static function getArrayFirstPosition(array $arr = [])
+    {
+        return $arr[array_keys($arr)[0]];
+    }
+
+    /**
+     * @param array $haystack
+     * @param array $needle
+     * @return bool
+     */
+    public static function checkIfArrayInArray(array $haystack = [], array $needle = [])
+    {
+        foreach ($haystack as $value) {
+            if ($value === $needle) {
+                return true;
+            }
+        }
+        return false;
+    }
 }

@@ -15,7 +15,7 @@ class CSVTools
      */
     function csvToArray($path = '')
     {
-        $array = $fields = [];
+        $r = $fields = [];
         $i = 0;
         $handle = @fopen($path, 'r');
         if ($handle) {
@@ -25,7 +25,7 @@ class CSVTools
                     continue;
                 }
                 foreach ($row as $k => $value) {
-                    $array[$i][$fields[$k]] = $value;
+                    $r[$i][$fields[$k]] = $value;
                 }
                 $i++;
             }
@@ -34,6 +34,6 @@ class CSVTools
             }
             fclose($handle);
         }
-        return $array;
+        return $r;
     }
 }

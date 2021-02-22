@@ -2,10 +2,12 @@
   "name": "lkt-php/lkt-tools",
   "description": "LKT PHP Tools",
   "type": "library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "require": {
     "php": ">=7.2.0",
     "ext-intl": "*",
+    "ext-xml": "*",
+    "ext-json": "*",
     "lkt-php/lkt-instance-patterns": "^1.0.9",
     "lkt-php/lkt-validations": "^1.0.0",
     "lkt-php/lkt-drivers": "^1.0.0",
