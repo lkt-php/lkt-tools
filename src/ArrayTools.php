@@ -5,12 +5,14 @@ namespace Lkt\Tools;
 /**
  * Class ArrayTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class ArrayTools
 {
     /**
      * @param array $a
      * @return float|int
+     * @deprecated
      */
     public static function arrayAverage(array $a)
     {
@@ -20,6 +22,7 @@ class ArrayTools
     /**
      * @param array $array
      * @return array
+     * @deprecated
      */
     public static function arrayValuesRecursive(array $array = [])
     {
@@ -40,6 +43,7 @@ class ArrayTools
      * @param string $divider
      * @param array $parentKeys
      * @return array
+     * @deprecated
      */
     public static function arrayValuesRecursiveWithKeys(array $array = [], string $divider = '.', array $parentKeys = [])
     {
@@ -60,6 +64,7 @@ class ArrayTools
     /**
      * @param array $arr
      * @return mixed
+     * @deprecated
      */
     public static function getArrayFirstPosition(array $arr = [])
     {
@@ -70,6 +75,7 @@ class ArrayTools
      * @param array $haystack
      * @param array $needle
      * @return bool
+     * @deprecated
      */
     public static function checkIfArrayInArray(array $haystack = [], array $needle = [])
     {

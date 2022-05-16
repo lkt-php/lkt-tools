@@ -6,12 +6,14 @@ namespace Lkt\Tools;
 /**
  * Class StringTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class StringTools
 {
     /**
      * @param string $str
      * @return string
+     * @deprecated
      */
     public static function toUTF8(string $str = ''): string
     {
@@ -21,6 +23,7 @@ class StringTools
     /**
      * @param string $str
      * @return string
+     * @deprecated
      */
     public static function toAscii(string $str = ''): string
     {
@@ -34,6 +37,7 @@ class StringTools
     /**
      * @param string $str
      * @return string
+     * @deprecated
      */
     public static function removeWhiteSpaces(string $str = ''): string
     {
@@ -43,6 +47,7 @@ class StringTools
     /**
      * @param string $str
      * @return string
+     * @deprecated
      */
     public static function brToNl(string $str = '')
     {
@@ -53,6 +58,7 @@ class StringTools
      * @param string $string
      * @param string $delimiter
      * @return string
+     * @deprecated
      */
     public static function convertToCamelCase(string $str = '', $delimiter = '-')
     {

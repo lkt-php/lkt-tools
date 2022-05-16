@@ -6,12 +6,14 @@ namespace Lkt\Tools;
 /**
  * Class CSVTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class CSVTools
 {
     /**
      * @param string $path
      * @return array
+     * @deprecated
      */
     function csvToArray($path = '')
     {

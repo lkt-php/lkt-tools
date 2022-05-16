@@ -2,20 +2,25 @@
   "name": "lkt-php/lkt-tools",
   "description": "LKT PHP Tools",
   "type": "library",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "require": {
     "php": ">=7.2.0",
     "ext-intl": "*",
     "ext-xml": "*",
     "ext-json": "*",
-    "lkt-php/lkt-instance-patterns": "^1.0.9",
-    "lkt-php/lkt-validations": "^1.0.0",
-    "lkt-php/lkt-drivers": "^1.0.0",
     "chillerlan/php-filereader": "^2.0",
     "symfony/console": "^5.0",
     "nesbot/carbon": "^2.24"
   },
   "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Lkt\\Tools\\": "src"
+    },
+    "files": [
+      "src/bootstrap.php"
+    ]
+  },
   "repositories": [
     {
       "type": "vcs",
@@ -29,10 +34,5 @@
       "type": "vcs",
       "url": "https://gitlab.com/lkt-php/lkt-drivers.git"
     }
-  ],
-  "autoload": {
-    "psr-4": {
-      "Lkt\\Tools\\": "src"
-    }
-  }
+  ]
 }

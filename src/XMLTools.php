@@ -6,6 +6,7 @@ namespace Lkt\Tools;
 /**
  * Class XMLTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class XMLTools
 {
@@ -14,6 +15,7 @@ class XMLTools
      * @param int $get_attributes
      * @param string $priority
      * @return array|void
+     * @deprecated
      */
     public static function xmlToArray($contents, $get_attributes = 1, $priority = 'tag')
     {

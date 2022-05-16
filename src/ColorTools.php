@@ -6,12 +6,14 @@ namespace Lkt\Tools;
 /**
  * Class ColorTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class ColorTools
 {
     /**
      * @param string $color
      * @return array|null
+     * @deprecated
      */
     public static function hexToDec(string $color): ?array
     {
@@ -37,6 +39,7 @@ class ColorTools
     /**
      * @param array $color
      * @return string|null
+     * @deprecated
      */
     public static function decToHex(array $color): ?string
     {

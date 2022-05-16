@@ -3,11 +3,15 @@
 
 namespace Lkt\Tools;
 
-
+/**
+ *
+ * @deprecated
+ */
 class DebugTools
 {
     /**
      * @param $data
+     * @deprecated
      */
     public static function show($data): void
     {
@@ -19,6 +23,7 @@ class DebugTools
 
     /**
      * @return null
+     * @deprecated
      */
     public static function getCalledClass()
     {

@@ -6,12 +6,14 @@ namespace Lkt\Tools;
 /**
  * Class UrlTools
  * @package Lkt\Tools
+ * @deprecated
  */
 class UrlTools
 {
     /**
      * @param string $url
      * @return string
+     * @deprecated
      */
     public static function cleanUrl(string $url): string
     {
