@@ -2,7 +2,9 @@
 
 namespace Lkt\Tools\Debug;
 
-
+/**
+ * @return mixed|string|null
+ */
 function getCalledClass()
 {
     $bt = debug_backtrace();

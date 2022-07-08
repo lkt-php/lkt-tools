@@ -3,10 +3,10 @@
 namespace Lkt\Tools\Csv;
 
 /**
- * @param $path
+ * @param string $path
  * @return array
  */
-function csvToArray($path = ''): array
+function csvToArray(string $path = ''): array
 {
     $r = $fields = [];
     $i = 0;

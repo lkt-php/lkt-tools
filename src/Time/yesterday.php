@@ -2,6 +2,10 @@
 
 namespace Lkt\Tools\Time;
 
-function yesterday($format) {
+/**
+ * @param string $format
+ * @return false|string
+ */
+function yesterday(string $format) {
     return date($format, strtotime('-1 days'));
 }

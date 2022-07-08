@@ -2,6 +2,10 @@
 
 namespace Lkt\Tools\System;
 
+/**
+ * @param string $path
+ * @return bool
+ */
 function isAbsolutePath(string $path) :bool
 {
     if ($path === null || $path === '') {

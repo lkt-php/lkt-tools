@@ -2,6 +2,10 @@
 
 namespace Lkt\Tools\Color;
 
+/**
+ * @param string $color
+ * @return array|null
+ */
 function hexToDec(string $color): ?array
 {
     $color = str_replace('#', '', $color);
