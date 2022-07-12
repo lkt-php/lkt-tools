@@ -1,5 +1,7 @@
 <?php
 
+namespace Lkt\Tools\Strings;
+
 /**
  * @param string $path
  * @return string
