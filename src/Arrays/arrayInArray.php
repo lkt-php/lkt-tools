@@ -7,10 +7,8 @@
  */
 function arrayInArray(array $haystack = [], array $needle = []): bool
 {
-    foreach ($haystack as $value) {
-        if ($value === $needle) {
-            return true;
-        }
+    if (in_array($needle, $haystack, true)) {
+        return true;
     }
     return false;
 }

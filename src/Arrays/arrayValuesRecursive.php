@@ -5,7 +5,7 @@ namespace Lkt\Tools\Arrays;
  * @param array $array
  * @return array
  */
-function arrayValuesRecursive(array $array = [])
+function arrayValuesRecursive(array $array = []): array
 {
     $r = [];
 

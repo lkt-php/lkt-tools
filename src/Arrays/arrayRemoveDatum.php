@@ -5,7 +5,7 @@ namespace Lkt\Tools\Arrays;
 function arrayRemoveDatum(array &$haystack, string $needle)
 {
     $i = array_search($needle, $haystack, true);
-    if ($i){
+    if ($i !== false){
         unset($haystack[$i]);
 
         if (is_numeric($i)) {
