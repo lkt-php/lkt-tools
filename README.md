@@ -243,3 +243,17 @@ Sanitizes an input string
 ```php
 \Lkt\Tools\Parse\clearInput('   \Hello world'); // Result: 'Hello world'
 ```
+
+### removeDuplicatedWitheSpices
+
+Removes all duplicated withe spaces and replace it with a single space 
+
+| Arg           | Type   | Description                 |
+|---------------|--------|-----------------------------|
+| $value        | string | Datum                       |
+
+#### Usage
+
+```php
+\Lkt\Tools\Parse\removeDuplicatedWitheSpices('Hello     world'); // Result: 'Hello world'
+```
