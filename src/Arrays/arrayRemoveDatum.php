@@ -2,7 +2,7 @@
 
 namespace Lkt\Tools\Arrays;
 
-function arrayRemoveDatum(array &$haystack, string $needle)
+function arrayRemoveDatum(array &$haystack, string $needle): void
 {
     $i = array_search($needle, $haystack, true);
     if ($i !== false){

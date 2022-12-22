@@ -2,12 +2,6 @@
 
 namespace Lkt\Tools\System;
 
-/**
- * @param string $base64String
- * @param string $dir
- * @param string $name
- * @return array
- */
 function storeBase64Image(string $base64String, string $dir, string $name): array
 {
     $parts = explode(';base64,', $base64String);

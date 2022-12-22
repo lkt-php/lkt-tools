@@ -2,10 +2,6 @@
 
 namespace Lkt\Tools\Strings;
 
-/**
- * @param string $str
- * @return string
- */
 function toAscii(string $str = ''): string
 {
     $str = \str_replace(array('º', 'ª'), '', $str);

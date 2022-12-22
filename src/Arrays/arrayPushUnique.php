@@ -2,12 +2,7 @@
 
 namespace Lkt\Tools\Arrays;
 
-/**
- * @param array $array
- * @param $data
- * @return void
- */
-function arrayPushUnique(array &$array, $data)
+function arrayPushUnique(array &$array, $data): void
 {
     if (!in_array($data, $array, true)) {
         $array[] = $data;

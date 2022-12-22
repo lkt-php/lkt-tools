@@ -2,12 +2,6 @@
 
 namespace Lkt\Tools\Xml;
 
-/**
- * @param $contents
- * @param int $get_attributes
- * @param string $priority
- * @return array|mixed
- */
 function xmlToArray($contents, int $get_attributes = 1, string $priority = 'tag')
 {
     \ini_set('memory_limit', '3048M');

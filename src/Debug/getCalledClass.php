@@ -2,10 +2,7 @@
 
 namespace Lkt\Tools\Debug;
 
-/**
- * @return mixed|string|null
- */
-function getCalledClass()
+function getCalledClass(): mixed
 {
     $bt = debug_backtrace();
     $l = count($bt) - 1;

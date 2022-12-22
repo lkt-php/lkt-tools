@@ -2,12 +2,6 @@
 
 namespace Lkt\Tools\Arrays;
 
-/**
- * @param array $array
- * @param string $divider
- * @param array $parentKeys
- * @return array
- */
 function arrayValuesRecursiveWithKeys(array $array = [], string $divider = '.', array $parentKeys = []): array
 {
     $r = [];

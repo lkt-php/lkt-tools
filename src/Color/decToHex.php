@@ -2,10 +2,6 @@
 
 namespace Lkt\Tools\Color;
 
-/**
- * @param array $color
- * @return string|null
- */
 function decToHex(array $color): ?string
 {
     if (count($color) === 3) {

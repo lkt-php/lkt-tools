@@ -2,14 +2,10 @@
 
 namespace Lkt\Tools\Strings;
 
-/**
- * @param string $str
- * @param string $delimiter
- * @return string
- */
+
 function toCamelCase(string $str = '', string $delimiter = '-'): string
 {
-    if (strpos($str, $delimiter) === false) {
+    if (!str_contains($str, $delimiter)) {
         return $str;
     }
     $values = explode($delimiter, $str);

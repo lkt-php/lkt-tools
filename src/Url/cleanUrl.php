@@ -2,10 +2,6 @@
 
 namespace Lkt\Tools\Url;
 
-/**
- * @param string $url
- * @return string
- */
 function cleanUrl(string $url): string
 {
     $url = trim($url);

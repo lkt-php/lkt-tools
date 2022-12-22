@@ -2,10 +2,6 @@
 
 namespace Lkt\Tools\Csv;
 
-/**
- * @param string $path
- * @return array
- */
 function csvToArray(string $path = ''): array
 {
     $r = $fields = [];

@@ -2,7 +2,7 @@
 
 namespace Lkt\Tools\Requiring;
 
-function requireFiles(array $paths)
+function requireFiles(array $paths): void
 {
     foreach ($paths as $path) {
         $files = glob($path);
