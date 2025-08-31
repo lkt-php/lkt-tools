@@ -11,6 +11,7 @@ requireFiles([
     __DIR__ . '/Color/*.php',
     __DIR__ . '/Csv/*.php',
     __DIR__ . '/Debug/*.php',
+    __DIR__ . '/Export/*.php',
     __DIR__ . '/Pagination/*.php',
     __DIR__ . '/Parse/*.php',
     __DIR__ . '/Strings/*.php',
